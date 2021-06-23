@@ -15,7 +15,6 @@ import getRecipientEmail from "../utils/getRecipientEmail";
 import TimeAgo from "timeago-react";
 import { useRef } from "react";
 import { useEffect } from "react";
-import SendIcon from "@material-ui/icons/Send";
 
 
 function ChatScreen({ chat, messages, recipientSnapshot, recipient }) {
